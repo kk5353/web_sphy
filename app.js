@@ -8,7 +8,7 @@ const path = require('path')
 //API接口服务
 var server = express();
 server.listen(config.API_Port);
-console.log('API接口服务：http://127.0.0.1:' + config.API_Port);
+console.log('http://127.0.0.1:' + config.API_Port);
 server.use('/',express.static('static'));
 
 
