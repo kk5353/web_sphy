@@ -7,8 +7,8 @@ const config = require('./config/config');
 const path = require('path')
 //API接口服务
 var server = express();
-server.listen(config.API_Port);
-console.log('http://127.0.0.1:' + config.API_Port);
+server.listen(8080);
+console.log('http://127.0.0.1:8080'  );
 server.use('/',express.static('static'));
 
 
