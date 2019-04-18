@@ -2,13 +2,14 @@
   "name": "arest",
   "version": "0.1.0",
   "description": "A framework, which use koa2, mysql, graphql & typescript , to build micro service rapidly, safely & efficiently.",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "start": "node  app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {},
   "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
     "cookie-parser": "^1.4.4",
     "cookie-session": "^1.3.3",
     "express": "^4.16.4",
